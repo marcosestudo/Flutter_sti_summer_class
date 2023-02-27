@@ -7,7 +7,7 @@ abstract class Shape {
 
   Shape({required this.name});
     
-  Draw();
+  Draw(); // a classe abstrata Shape está somente declarando o método Draw que será definido nas classes que extendem Shape
 }
 
 class Hexagon extends Shape {
