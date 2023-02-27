@@ -21,6 +21,19 @@ class Hexagon extends Shape {
   }
 }
 
+class Square extends Shape {
+  Square(): super(name: "square"); // ao invez de pedir o dentro do construtor, deixa assim para que todos os quadrados tenham o mesmo nome
+
+  @override
+  Draw() {
+    print("  ____ ");
+    print(" |    | ");
+    print(" |____| ");
+  }
+}
+
+
 const Map<String, Function> possibleShapes = {
   "hexagon": Hexagon.new,
+  "square": Square.new,
 };
