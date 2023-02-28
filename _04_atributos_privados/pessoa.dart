@@ -1,14 +1,15 @@
 // Dart não tem a palavra reservada private
 // usamos o undersoce "_" na frente do nome do atributo que deve ser privado
 // para manipularmos os valores dos atributos privados, usamos os métodos get() e set()
-class Pessoa {
+class Pessoa1 {
   late String _nome; // não podemos usar o atributo privado no construtor, então usamos a palavra resrevada late pra podermos atribuir um valor a ela depois
   String sobrenome;
 
-  get nome => this._nome;
-  set nome(n) => this._nome = n;
+  // Dart tem arrow afunctions
+  get getNome => this._nome;
+  set setNome(n) => this._nome = n;
 
-  Pessoa({required this.sobrenome});
+  Pessoa1({required this.sobrenome});
 }
 
 
