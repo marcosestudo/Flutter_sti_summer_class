@@ -3,8 +3,13 @@
 // descomente os blocos de código individualmente pra ver os highlights de erro
 
 // class Pessoa {
-//   nome;
+//   String nome;
 //   String sobrenome;
+// }
+
+// class Pessoa {
+//   String nome = ''; // podemos inicializar com um valor padrão '' para strings ou 0 para números
+//   String sobrenome = '';
 // }
 
 // class Pessoa {
