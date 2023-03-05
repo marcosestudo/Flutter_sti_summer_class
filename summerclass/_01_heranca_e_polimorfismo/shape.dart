@@ -6,12 +6,12 @@ abstract class Shape {
   String name;
 
   Shape({required this.name});
-    
+
   Draw(); // a classe abstrata Shape está somente declarando o método Draw que será definido nas classes que extendem Shape
 }
 
 class Hexagon extends Shape {
-  Hexagon(): super(name: "hexagon");
+  Hexagon() : super(name: "hexagon");
 
   @override // sobrescreve o método Draw()
   Draw() {
@@ -22,7 +22,9 @@ class Hexagon extends Shape {
 }
 
 class Square extends Shape {
-  Square(): super(name: "square"); // ao invez de pedir o dentro do construtor, deixa assim para que todos os quadrados tenham o mesmo nome
+  // ao invez de pedir o quadrado dentro do construtor, deixa assim
+  // para que todos os quadrados tenham o mesmo nome "square"
+  Square() : super(name: "square");
 
   @override
   Draw() {
@@ -31,7 +33,6 @@ class Square extends Shape {
     print(" |____| ");
   }
 }
-
 
 const Map<String, Function> possibleShapes = {
   "hexagon": Hexagon.new,
