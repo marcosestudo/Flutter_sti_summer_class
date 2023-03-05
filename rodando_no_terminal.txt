@@ -1,1 +1,1 @@
-dart run arquivo.dart
+>>> dart run arquivo.dart
