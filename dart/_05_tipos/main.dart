@@ -13,6 +13,8 @@ Maps (Map)
 Runes (Runes; often replaced by the characters API)
 Symbols (Symbol)
 The value null (Null)
+
+As variáveis também podem ser declaradas com os tipos "var" e "dynamic"
 */
 
 void main() {

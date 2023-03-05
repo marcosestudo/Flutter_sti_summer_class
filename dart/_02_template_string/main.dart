@@ -7,4 +7,10 @@ main() {
   // Declaração especificando o tipo explicitamente
   String sobrenome = "Machado";
   print("Olá, ${nome} ${sobrenome}!");
+
+  // Também podemos declarar com o tipo "dynamic"
+  // na variável dinâmica podemos mudar seu tipo durante a execução do programa
+  dynamic din = "string";
+  din = 53;
+  din = 5.3;
 }
