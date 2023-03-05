@@ -1,1 +1,3 @@
 >>> dart run arquivo.dart
+ou
+>>> dart arquivo.dart
