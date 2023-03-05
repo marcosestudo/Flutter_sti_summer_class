@@ -1,6 +1,7 @@
 // termplate string ou interpolação de strings
 
 main() {
-  String nome = "Marcos";
-  print("Olá, $nome");
+  var nome = "Marcos";
+  String sobrenome = "Machado"; // Declarando especificando o tipo
+  print("Olá, ${nome} ${sobrenome}");
 }
