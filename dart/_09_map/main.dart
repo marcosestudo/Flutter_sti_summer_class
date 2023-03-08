@@ -17,4 +17,8 @@ void main() {
   };
   print(letraNum);
   print(letraNum["A"]);
+
+  // adicionando elemento
+  letraNum["D"] = 4.0;
+  print(letraNum);
 }
