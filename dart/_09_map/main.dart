@@ -30,4 +30,9 @@ void main() {
   Map ola = const {1: "Olá", 2: "Dart"};
   // ola[1] = "oi"; //gera erro Unsupported operation: Cannot modify unmodifiable map
   print(ola);
+
+  // funções do map
+  // digite o nome do map + ponto pra ver as funções disponíveis 
+  // ex: "letras." 
+  // o vscode vai mostrar as sugestões de funções
 }

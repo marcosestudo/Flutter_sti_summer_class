@@ -15,6 +15,7 @@ void main() {
   nums.removeLast();
   print(nums);
 
+  // funções das listas
   // digite o nome da lista + ponto pra ver as funções disponíveis 
   // ex: "letras." 
   // o vscode vai mostrar as sugestões de funções
