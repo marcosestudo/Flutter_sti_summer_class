@@ -1,4 +1,4 @@
-// maps são como obejtos javascript
+// maps são como obejtos javascript ou dicionários python
 void main() {
   Map gasesNobres = {
     // chave: valor
