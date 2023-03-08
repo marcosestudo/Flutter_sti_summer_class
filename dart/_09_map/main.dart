@@ -25,4 +25,9 @@ void main() {
   // alterando valor
   letraNum["C"] = 53.0;
   print(letraNum);
+
+  // map constante
+  Map ola = const {1: "Olá", 2: "Dart"};
+  // ola[1] = "oi"; //gera erro Unsupported operation: Cannot modify unmodifiable map
+  print(ola);
 }
