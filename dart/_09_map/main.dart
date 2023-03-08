@@ -21,4 +21,8 @@ void main() {
   // adicionando elemento
   letraNum["D"] = 4.0;
   print(letraNum);
+
+  // alterando valor
+  letraNum["C"] = 53.0;
+  print(letraNum);
 }
