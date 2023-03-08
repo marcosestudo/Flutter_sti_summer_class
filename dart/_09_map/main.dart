@@ -10,7 +10,8 @@ void main() {
   print(gasesNobres[2]);
 
   // especificando os tipos do map, devemos especificar os dois
-  Map<String, double> letraNum = {
+  // maps podem receber também o tipo dynamic
+  Map<String, dynamic> letraNum = {
     "A": 1.0,
     "B": 2.0,
     "C": 3.0,
