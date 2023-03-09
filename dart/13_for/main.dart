@@ -9,4 +9,8 @@ void main() {
   for (String letra in letras) {
     print(letra);
   }
+
+  print("---------------");
+
+  letras.forEach((element) => print(element));
 }
