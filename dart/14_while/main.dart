@@ -5,4 +5,11 @@ void main() {
     print(num);
     num++;
   }
+
+  print("---------------");
+
+  do {
+    print(num);
+    num--;
+  } while (num > 0);
 }
